@@ -8,6 +8,7 @@
 /* background color  page #F5F5F5 */
 /* card #EEEEE*/
 /* footer link rgba(255, 255, 255, 0.6); */
+/* buttone focus rgba(33, 150, 243, 1) */
 /* Body */
 
 :root {
@@ -68,17 +69,18 @@ a{
 }
     .site-nav .link:hover,
     .site-nav .link:focus,
-    .site-nav .link:active {
+        .site-nav .link:active
+     {
         color: var(--accent-color);
     }
-
-
+    
+    
     .contacts .link {
         color: var(--primary-text-color);
             font-weight: 500;
             font-size: 14px;
             line-height: 1.17;
-
+     .
     }
     .contacts .link:focus,
     .contacts .link:hover,
@@ -98,13 +100,7 @@ a{
             font-size: 16px;
             line-height: 1.8;
             letter-spacing: 0.06em;
-            border-radius: 4px;
-        }
-    
-        .button:hover,
-        .button:focus {
-            
-        }
+            border-radius: 4px;}
 
     /* ----------Hero---------- */
     .hero {
@@ -184,7 +180,9 @@ a{
 }
 
 /* ----------------------Portfolio---------------------- */
-
+.site-nav .active{
+    color: var(--accent-color);
+}
 
 .portfolio-list .link:hover,
 .portfolio-list .link:focus,
