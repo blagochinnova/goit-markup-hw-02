@@ -42,13 +42,23 @@ a{
     text-decoration: none;
 }
 .tittle-hidden{
-    visibility: hidden;
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+    
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
 }
 /* ----------Header---------- */
 
 
 /* ----------Logo----------*/
-.logo {
+.logo-header{
 
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -158,6 +168,13 @@ a{
         line-height: 1.17;
 }
 /* Footer */
+.logo-footer{
+    font-family: 'Raleway',sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.8;
+        color: var(--white-color);
+}
 .footer {
     background-color: var(--background-hero);
 }
